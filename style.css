@@ -1,0 +1,43 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+#yoda{
+    background: yellow;
+    
+}
+#Finn{
+    background: hotpink;
+    
+}
+#Hans-Solo{
+    background: lime;
+    
+}
+
+header{ /*element selector directly access the element for id selector we need to use #  */
+    background: chartreuse;
+    text-align: center;
+    padding: 30px;
+}
+.character{
+    text-align: center;
+    padding: 20px;
+}
+nav ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer; 
+    margin:20px;
+  
+}
+nav ul li{
+    margin: 0 20px; 
+  
+}
+section p,img{
+    padding:20px;
+}
+
